@@ -1,0 +1,17 @@
+{
+  "name": "xc-compliance-eu",
+  "version": "1.0.0",
+  "description": "Search EU product-compliance legal excerpts and historical product-safety alerts with the read-only XC Compliance MCP service.",
+  "mcpServers": {
+    "xc-compliance": {
+      "httpUrl": "https://agent.xiaochucompliance.com/agent-tools/gemini/v1/mcp",
+      "description": "Read-only search for EU product-compliance legal excerpts and historical product-safety alerts.",
+      "includeTools": [
+        "search_legal_sources",
+        "search_risk_cases"
+      ],
+      "timeout": 60000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
