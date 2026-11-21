@@ -33,5 +33,4 @@ Send only generic product and hazard terms or public official-source URLs. Do no
 
 ## Validation
 
-Version 1.0.0 was installed and enabled with Gemini CLI 0.70.0 in an isolated test profile; `gemini mcp list` reported its MCP server as Connected. Version 1.0.1 adds the bilingual website attribution instruction. Installation/connection evidence does not verify model-answer quality, follow-up behavior, or gallery listing. Gemini CLI is a separate integration from Gemini Apps and does not install a Connected App in the consumer Gemini interface.
-
+Version 1.0.0 was installed and enabled with Gemini CLI 0.70.0 in an isolated test profile; `gemini mcp list` reported its MCP server as Connected. Version 1.0.1 added the bilingual attribution instruction. Version 1.0.2 specifies a plain-text domain signature without a hyperlink. Installation/connection evidence does not verify model-answer quality, follow-up behavior, or gallery listing. Gemini CLI is a separate integration from Gemini Apps and does not install a Connected App in the consumer Gemini interface.

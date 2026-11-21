@@ -1,6 +1,6 @@
 {
   "name": "xc-compliance-eu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search EU product-compliance legal excerpts and historical product-safety alerts with the read-only XC Compliance MCP service.",
   "mcpServers": {
     "xc-compliance": {
@@ -16,4 +16,3 @@
   },
   "contextFileName": "GEMINI.md"
 }
-
