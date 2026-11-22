@@ -10,10 +10,9 @@
         "search_risk_cases"
       ],
       "timeout": 60000,
-      "url": "https://agent.xiaochucompliance.com/agent-tools/mcp",
+      "url": "https://agent.xiaochucompliance.com/agent-tools/gemini/v1/mcp",
       "type": "http"
     }
   },
   "contextFileName": "GEMINI.md"
 }
-
