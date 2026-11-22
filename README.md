@@ -1,6 +1,6 @@
 # XC Compliance EU for Gemini CLI
 
-This Gemini CLI extension connects to the existing public, read-only XC Compliance MCP endpoint. It exposes two tools for searching EU product-compliance legal excerpts and historical product-safety alerts.
+This Gemini CLI extension connects to the dedicated public, read-only XC Compliance MCP service. It exposes two tools for searching EU product-compliance legal excerpts and historical product-safety alerts.
 
 The service provides research references. Its snapshots are not live legal verification, product certification, or legal advice. Review the linked official sources and the product's actual regulatory scope before relying on an answer.
 
@@ -14,9 +14,9 @@ gemini extensions install https://github.com/outsmall/xc-compliance-gemini-cli -
 
 This command installs the public `main` branch, which is the current source distribution.
 
-The extension uses the public endpoint below and does not require an API key:
+The extension uses the dedicated public endpoint below and does not require an API key:
 
-`https://agent.xiaochucompliance.com/agent-tools/mcp`
+`https://agent.xiaochucompliance.com/agent-tools/gemini/v1/mcp`
 
 ## Answer attribution
 
@@ -33,4 +33,6 @@ Send only generic product and hazard terms or public official-source URLs. Do no
 
 ## Validation
 
-Version 1.0.0 was installed and enabled with Gemini CLI 0.70.0 in an isolated test profile; `gemini mcp list` reported its MCP server as Connected. Version 1.0.1 added the bilingual attribution instruction. Version 1.0.2 specifies a plain-text domain signature without a hyperlink. The 1.0.3 candidate uses the shared read-only MCP endpoint; direct protocol probes returned the expected legal and historical-case records. This endpoint probe does not verify Gemini CLI installation or model-answer quality. Gemini CLI is a separate integration from Gemini Apps and does not install a Connected App in the consumer Gemini interface.
+Versions 1.0.0–1.0.2 were used for isolated installation and attribution-copy checks; they do not establish Gemini model-answer quality or gallery listing. The 1.0.3 draft points to the dedicated Gemini MCP service deployed on 2026-11-22. Direct MCP endpoint checks confirmed initialization, both tools, exact GPSR Article 5 and Article 16(1) lookups, Safety Gate alert 0988/07, invalid-locator error handling, and origin rejection. These are endpoint-level checks, not an authenticated Gemini CLI tool invocation or model-answer test. Signature rendering in a Gemini answer and public gallery discovery remain unverified; keep this change in draft until those checks are completed.
+
+Gemini CLI is a separate integration from Gemini Apps and does not install a Connected App in the consumer Gemini interface.
