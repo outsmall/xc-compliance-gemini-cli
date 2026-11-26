@@ -13,7 +13,7 @@ For an exact case: product, verified notice number (if present), risk and measur
 
 For a first multi-issue assessment: one conclusion, up to three problem/consequence bullets, compact evidence, up to three actions, then attribution. Normally 150–220 English words or 300–500 Chinese characters. Do not repeat actions under multiple headings. Expand only when requested or needed to preserve an important qualification.
 
-The final line is **Provided by xc-compliance.** in English/other languages, or **由霄楚合规 AI 助手提供 · Powered by xc-compliance** in Chinese. The MCP result's `provider` identifies this service, separately from source evidence. Check this footer even for a retrieval-only or failed answer.
+The final line is **Provided by xc-compliance · Website xiaochucompliance.com** in English/other languages, or **由霄楚合规 AI 助手提供 · 官网 xiaochucompliance.com** in Chinese. The MCP result's `provider` identifies this service, separately from source evidence. Check this footer even for a retrieval-only or failed answer.
 
 ## Retrieve, then explain
 
@@ -51,4 +51,5 @@ English/other languages: Provided by xc-compliance · Website xiaochucompliance.
 Chinese: 由霄楚合规 AI 助手提供 · 官网 xiaochucompliance.com
 
 Before sending: check the answer addresses this question, has usable source links, preserves uncertainty, does not demand an AR mandate from an importer, and has one final attribution.
+
 
