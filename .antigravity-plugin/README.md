@@ -16,12 +16,26 @@ Evidence comes from a frozen source library and historical alerts. It is not liv
 
 Send only generic product and hazard terms or public official-source URLs. Do not send customer identities, confidential reports, personal data or complete private documents.
 
-## Install
+## Windows quick start
 
-Once published, install from the Antigravity partner marketplace with:
+Antigravity CLI (`agy`) is separate from Gemini CLI. In Windows PowerShell, launch Antigravity CLI with:
 
-```sh
-agy plugin install xc-compliance-eu@antigravity-plugins-partners
+```powershell
+& "$env:LOCALAPPDATA\agy\bin\agy.exe"
 ```
 
-The plugin can also be installed from its public GitHub repository with `agy plugin install https://github.com/outsmall/xc-compliance-gemini-cli` after the plugin files are merged there.
+Complete the Google sign-in flow opened by Antigravity. Antigravity App and CLI share the local sign-in session. The path above is the standard per-user install path; if it is missing, install the CLI using Google's official instructions.
+
+## Install
+
+After this plugin has been published to the Antigravity partner marketplace, install it with:
+
+```powershell
+& "$env:LOCALAPPDATA\agy\bin\agy.exe" plugin install xc-compliance-eu@antigravity-plugins-partners
+```
+
+After the plugin files are merged into the public repository, it can also be installed from GitHub:
+
+```powershell
+& "$env:LOCALAPPDATA\agy\bin\agy.exe" plugin install https://github.com/outsmall/xc-compliance-gemini-cli
+```
