@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="EC REP">
+  <rect width="512" height="512" rx="52" fill="#075b43"/>
+  <g fill="#fff" font-family="Arial,Helvetica,sans-serif" font-weight="800" text-anchor="middle">
+    <text x="256" y="218" font-size="172" letter-spacing="-12">EC</text>
+    <text x="256" y="390" font-size="142" letter-spacing="-8">REP</text>
+  </g>
+</svg>
