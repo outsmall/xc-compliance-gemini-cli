@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "xc-compliance": {
+      "url": "https://agent.xiaochucompliance.com/agent-tools/gemini/v1/mcp"
+    }
+  }
+}
