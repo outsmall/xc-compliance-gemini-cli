@@ -1,0 +1,25 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "xc-compliance-eu",
+  "displayName": "XC Compliance",
+  "version": "1.0.3",
+  "description": "Research EU product compliance with read-only legal-source and historical safety-alert search. Review product documents, labels and EU operator duties; reference analysis, not certification.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check EU product-compliance duties and show the official sources.",
+    "Compare report coverage and product labels; identify what evidence is still needed.",
+    "Find a matching historical EU product-safety alert and cite its official record."
+  ],
+  "author": {
+    "name": "Xiaochu Compliance",
+    "url": "https://xiaochucompliance.com/"
+  },
+  "homepage": "https://xiaochucompliance.com/",
+  "keywords": [
+    "eu",
+    "product-compliance",
+    "gpsr",
+    "safety-gate",
+    "regulatory-research"
+  ]
+}
